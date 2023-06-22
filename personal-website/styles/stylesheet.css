@@ -1,0 +1,27 @@
+:root {
+  --spacing_very-small: 0.25rem;
+  --color_primary_1: black;
+  --color_primary_2: #cbcbcb;
+  --color_primary_3: white;
+  --color_green: #6abd9e;
+  --color_blue: #27499a;
+  --color_red: #ff0000;
+}
+
+@media only screen and (min-width: 992px) {
+  :root {
+    --small: 8px;
+    --medium: 16px;
+    --large: 24px;
+    --x-large: 40px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  :root {
+    --small: 12px;
+    --medium: 24px;
+    --large: 32px;
+    --x-large: 60px;
+  }
+}
